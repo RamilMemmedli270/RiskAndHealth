@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bizimlə Əlaqə | “Risk and Health” MMC</title>
+  <link rel="icon" type="image/png" href="assets/images/logo.png?v=3">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css?v=5">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a href="index.html" class="brand">
+        <div class="brand-logo-box">
+          <img src="assets/images/logo.png?v=3" alt="Risk and Health MMC Loqo">
+        </div>
+        <div class="brand-text">
+          <strong>“Risk and Health” MMC</strong>
+          <span>Sağlamlığınız Prioritetimizdir</span>
+        </div>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Ana Səhifə</a></li>
+        <li><a href="about.html">Haqqımızda</a></li>
+        <li><a href="services.html">Xidmətlərimiz</a></li>
+        <li><a href="projects.html">Layihələrimiz</a></li>
+        <li><a href="contact.html" class="active">Bizimlə Əlaqə</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="tel:+994558964747" class="nav-phone">
+          <i class="fa-solid fa-phone"></i> +994 55 896 47 47
+        </a>
+        <button type="button" class="mobile-toggle" id="mobileToggle" aria-label="Menyu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Ana Səhifə</a>
+        <i class="fa-solid fa-chevron-right" style="font-size:11px;"></i>
+        <span>Bizimlə Əlaqə</span>
+      </div>
+      <h1>BİZİMLƏ ƏLAQƏ</h1>
+      <p>
+        “Risk and Health” MMC ilə əlaqə saxlamaq və xidmətlərimiz barədə müraciət göndərmək üçün aşağıdakı vasitələrdən istifadə edə bilərsiniz.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="contact-grid">
+        <div>
+          <div class="contact-cards">
+            <div class="contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <div>
+                <span>Telefon</span>
+                <a href="tel:+994558964747">+994 55 896 47 47</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <i class="fa-regular fa-envelope"></i>
+              <div>
+                <span>E-poçt</span>
+                <a href="mailto:info@riskandhealth.az">info@riskandhealth.az</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <i class="fa-solid fa-globe"></i>
+              <div>
+                <span>Veb sayt</span>
+                <a href="https://riskandhealth.az" target="_blank" rel="noopener noreferrer">riskandhealth.az</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <span>Ünvan</span>
+                <strong>Bakı, Xocalı pr., Dəmirçi Plaza 25-ci mərtəbə</strong>
+              </div>
+            </div>
+          </div>
+
+          <div style="border-radius:18px; overflow:hidden; border:1px solid #E2E8F0; box-shadow:0 10px 30px rgba(15,23,42,0.06);">
+            <iframe
+              title="Dəmirçi Plaza Xəritə"
+              src="https://www.google.com/maps?q=Demirchi+Tower+Baku+Khojaly+Avenue&output=embed"
+              width="100%"
+              height="250"
+              style="border:0; display:block;"
+              loading="lazy">
+            </iframe>
+          </div>
+        </div>
+
+        <div class="form-card">
+          <h3 style="font-size:22px; font-weight:800; margin-bottom:8px;">Müraciət Göndərin</h3>
+          <p style="color:#64748B; font-size:14.5px; margin-bottom:20px;">
+            Məlumatlarınızı daxil edin — müraciətiniz birbaşa WhatsApp və ya e-poçt vasitəsilə komandamıza yönləndiriləcək.
+          </p>
+
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="cName">Ad, Soyad / Şirkət</label>
+                <input type="text" id="cName" class="form-control" placeholder="Adınız və ya şirkət adı" required>
+              </div>
+              <div class="form-group">
+                <label for="cPhone">Telefon</label>
+                <input type="tel" id="cPhone" class="form-control" placeholder="+994 50 000 00 00" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="cEmail">E-poçt</label>
+              <input type="email" id="cEmail" class="form-control" placeholder="example@company.az">
+            </div>
+
+            <div class="form-group">
+              <label for="cService">Xidmət istiqaməti</label>
+              <select id="cService" class="form-control">
+                <option value="Ümumi müraciət">Ümumi müraciət</option>
+                <option value="Əməyin mühafizəsi və SƏTƏM">Əməyin mühafizəsi və SƏTƏM</option>
+                <option value="Hüquqi xidmətlər">Hüquqi xidmətlər</option>
+                <option value="İnsan resursları və kadr uçotu">İnsan resursları və kadr uçotu</option>
+                <option value="Mühasibat və vergi xidmətləri">Mühasibat və vergi xidmətləri</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="cMessage">Mesajınız</label>
+              <textarea id="cMessage" class="form-control" placeholder="Müraciətiniz barədə qısa məlumat yazın..." required></textarea>
+            </div>
+
+            <div style="display:flex; flex-wrap:wrap; gap:12px;">
+              <button type="submit" class="btn-primary" style="flex:1;">
+                <i class="fa-brands fa-whatsapp"></i> WhatsApp ilə Göndər
+              </button>
+              <button type="button" id="emailSendBtn" class="btn-dark" style="flex:1;">
+                <i class="fa-regular fa-envelope"></i> E-poçt ilə Göndər
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="brand" style="margin-bottom:14px;">
+            <div class="brand-logo-box">
+              <img src="assets/images/logo.png?v=3" alt="Risk and Health MMC Loqo">
+            </div>
+            <div class="brand-text">
+              <strong>“Risk and Health” MMC</strong>
+              <span>Sağlamlığınız Prioritetimizdir</span>
+            </div>
+          </a>
+          <p style="font-size:14px; color:#94A3B8; line-height:1.65;">
+            Sağlam insan, təhlükəsiz iş mühiti, dayanıqlı gələcək.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Səhifələr</h4>
+          <ul>
+            <li><a href="index.html">Ana Səhifə</a></li>
+            <li><a href="about.html">Haqqımızda</a></li>
+            <li><a href="services.html">Xidmətlərimiz</a></li>
+            <li><a href="projects.html">Layihələrimiz</a></li>
+            <li><a href="contact.html">Bizimlə Əlaqə</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Xidmət Sahələri</h4>
+          <ul>
+            <li><a href="services.html?cat=setem">Əməyin mühafizəsi və SƏTƏM</a></li>
+            <li><a href="services.html?cat=huquq">Hüquqi xidmətlər</a></li>
+            <li><a href="services.html?cat=hr">İnsan resursları və kadr uçotu</a></li>
+            <li><a href="services.html?cat=maliyye">Mühasibat və vergi xidmətləri</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Bizimlə Əlaqə</h4>
+          <ul>
+            <li><a href="tel:+994558964747"><i class="fa-solid fa-phone" style="color:#FACC15; margin-right:8px;"></i>+994 55 896 47 47</a></li>
+            <li><a href="mailto:info@riskandhealth.az"><i class="fa-regular fa-envelope" style="color:#FACC15; margin-right:8px;"></i>info@riskandhealth.az</a></li>
+            <li><span style="font-size:14px; color:#94A3B8;"><i class="fa-solid fa-location-dot" style="color:#FACC15; margin-right:8px;"></i>Bakı, Xocalı pr., Dəmirçi Plaza 25-ci mərtəbə</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 “Risk and Health” MMC. Bütün hüquqlar qorunur.</span>
+        <span>riskandhealth.az</span>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/994558964747" target="_blank" rel="noopener noreferrer" class="floating-wa" aria-label="WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <script>
+    const mobileToggle = document.getElementById("mobileToggle");
+    const navLinks = document.getElementById("navLinks");
+    if (mobileToggle && navLinks) {
+      mobileToggle.addEventListener("click", () => navLinks.classList.toggle("open"));
+    }
+
+    const params = new URLSearchParams(window.location.search);
+    const serviceParam = params.get("service");
+    const serviceSelect = document.getElementById("cService");
+    if (serviceParam && serviceSelect) {
+      const opt = document.createElement("option");
+      opt.value = serviceParam;
+      opt.textContent = serviceParam;
+      opt.selected = true;
+      serviceSelect.appendChild(opt);
+    }
+
+    function buildMessageText() {
+      const name = document.getElementById("cName").value.trim();
+      const phone = document.getElementById("cPhone").value.trim();
+      const email = document.getElementById("cEmail").value.trim();
+      const service = document.getElementById("cService").value;
+      const msg = document.getElementById("cMessage").value.trim();
+      return `Salam, “Risk and Health” MMC!\nAd/Şirkət: ${name}\nTelefon: ${phone}\nE-poçt: ${email || "-"}\nXidmət: ${service}\nMesaj: ${msg}`;
+    }
+
+    document.getElementById("contactForm").addEventListener("submit", (e) => {
+      e.preventDefault();
+      const text = encodeURIComponent(buildMessageText());
+      window.open(`https://wa.me/994558964747?text=${text}`, "_blank", "noopener,noreferrer");
+    });
+
+    document.getElementById("emailSendBtn").addEventListener("click", () => {
+      const form = document.getElementById("contactForm");
+      if (!form.reportValidity()) return;
+      const subject = encodeURIComponent(`Saytdan müraciət: ${document.getElementById("cService").value}`);
+      const body = encodeURIComponent(buildMessageText());
+      window.location.href = `mailto:info@riskandhealth.az?subject=${subject}&body=${body}`;
+    });
+  </script>
+</body>
+</html>
