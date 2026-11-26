@@ -372,7 +372,9 @@ body {
 }
 
 .section-dark {
-  background: var(--bg-dark);
+  background:
+    radial-gradient(circle at 85% 15%, rgba(56, 189, 248, 0.10), transparent 42%),
+    linear-gradient(135deg, #0F172A 0%, #172554 60%, #1E3A5F 100%);
   color: #FFFFFF;
 }
 
