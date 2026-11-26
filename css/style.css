@@ -224,9 +224,9 @@ body {
 /* Hero */
 .hero-section {
   background:
-    radial-gradient(circle at 18% 18%, rgba(56, 189, 248, 0.14), transparent 45%),
-    radial-gradient(circle at 82% 20%, rgba(250, 204, 21, 0.10), transparent 42%),
-    linear-gradient(135deg, #0F172A 0%, #172554 55%, #1E3A5F 100%);
+    radial-gradient(circle at 18% 18%, rgba(56, 189, 248, 0.16), transparent 45%),
+    radial-gradient(circle at 82% 20%, rgba(250, 204, 21, 0.12), transparent 42%),
+    linear-gradient(135deg, #091F42 0%, #0E3468 55%, #16488A 100%);
   color: #FFFFFF;
   padding: 72px 0 84px;
   position: relative;
@@ -274,6 +274,8 @@ body {
   line-height: 1.7;
   max-width: 590px;
   margin-bottom: 30px;
+  border-left: 3px solid var(--accent);
+  padding-left: 14px;
 }
 
 .hero-actions {
@@ -373,8 +375,8 @@ body {
 
 .section-dark {
   background:
-    radial-gradient(circle at 85% 15%, rgba(56, 189, 248, 0.10), transparent 42%),
-    linear-gradient(135deg, #0F172A 0%, #172554 60%, #1E3A5F 100%);
+    radial-gradient(circle at 85% 15%, rgba(56, 189, 248, 0.12), transparent 42%),
+    linear-gradient(135deg, #091F42 0%, #0E3468 60%, #16488A 100%);
   color: #FFFFFF;
 }
 
@@ -624,10 +626,10 @@ body {
 
 /* Footer */
 .site-footer {
-  background: #060A13;
+  background: #081B38;
   color: #CBD5E1;
   padding: 64px 0 28px;
-  border-top: 1px solid var(--border-dark);
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .site-footer .brand-logo-box {
@@ -713,9 +715,9 @@ body {
 /* Subpage Hero */
 .page-hero {
   background:
-    radial-gradient(circle at 18% 18%, rgba(56, 189, 248, 0.14), transparent 45%),
-    radial-gradient(circle at 82% 20%, rgba(250, 204, 21, 0.10), transparent 42%),
-    linear-gradient(135deg, #0F172A 0%, #172554 55%, #1E3A5F 100%);
+    radial-gradient(circle at 18% 18%, rgba(56, 189, 248, 0.16), transparent 45%),
+    radial-gradient(circle at 82% 20%, rgba(250, 204, 21, 0.12), transparent 42%),
+    linear-gradient(135deg, #091F42 0%, #0E3468 55%, #16488A 100%);
   color: #FFFFFF;
   padding: 58px 0 64px;
   border-bottom: 3px solid var(--accent);
