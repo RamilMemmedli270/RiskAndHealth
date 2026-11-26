@@ -567,23 +567,23 @@ const RH_CATEGORIES = [
       {
         id: 3,
         code: "03",
-        title: "03. Əməkhaqqı və sosial ödənişlərin hesablanması",
-        summary: "İşçilərin əməkhaqqının, məzuniyyət və digər ödənişlərin hesablanması, gəlir vergisi, sosial sığorta, işsizlikdən sığorta və icbari tibbi sığorta üzrə öhdəliklərin hesablanması və uçotu.",
+        title: "03. Ödəmələrin və bank köçürmələrinin aparılması",
+        summary: "Əmək haqqı üzrə ödəmələrin, dövlət büdcəsi və gömrük ödəmələrinin, eləcə də daxili və xarici bank köçürmələrinin vaxtında və düzgün aparılması.",
         image: "assets/images/banner-hr.jpg",
-        purpose: "Əməkhaqqı, məzuniyyət, müavinət və bütün məcburi dövlət tutulmalarının dəqiq hesablanmasını və hesabatlılığını təmin etmək.",
+        purpose: "Müəssisənin bütün maliyyə ödənişlərinin, dövlət və gömrük öhdəliklərinin, həmçinin daxili və xarici köçürmələrin operativ, dəqiq və qanunvericiliyə uyğun icrasını təmin etmək.",
         tasks: [
-          "Əməkhaqqının hesablanması",
-          "Məzuniyyət və müavinətlərin hesablanması",
-          "Əməkhaqqından tutulmaların və məcburi ödənişlərin hesablanması (gəlir vergisi, sosial, işsizlik və icbari tibbi sığorta)",
-          "Əməkhaqqı üzrə vergi və sosial sığorta hesabatlarının hazırlanması",
-          "Əmək münasibətləri ilə bağlı maliyyə sənədlərinin uçotu"
+          "Əmək haqqı üzrə ödəmələrin hazırlanması və icrası",
+          "Dövlət büdcəsinə vergi və sosial ödənişlərin köçürülməsi",
+          "Gömrük ödəmələrinin vaxtında və düzgün aparılması",
+          "Ölkədaxili bank köçürmələrinin və təchizatçı ödənişlərinin icrası",
+          "Xarici valyuta ilə beynəlxalq köçürmələrin təşkili və nəzarəti"
         ],
         documents: [
-          "Əməkhaqqı hesablaşma cədvəlləri",
-          "Məzuniyyət və müavinət hesablamaları",
-          "Vergi və sosial sığorta hesabatları"
+          "Ödəniş tapşırıqları və bank çıxarışları",
+          "Büdcə və gömrük ödəniş sənədləri",
+          "Daxili və xarici köçürmə reyestrləri"
         ],
-        result: "İşçilərə ödənişlər və dövlət büdcəsinə köçürmələr tam dəqiqliklə icra olunur."
+        result: "Bütün əmək haqqı, büdcə, gömrük ödənişləri və daxili/xarici köçürmələr gecikməsiz və xətasız icra olunur."
       },
       {
         id: 4,
