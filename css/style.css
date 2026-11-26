@@ -710,7 +710,10 @@ body {
 
 /* Subpage Hero */
 .page-hero {
-  background: linear-gradient(135deg, #070B14 0%, #0F172A 65%, #1A2744 100%);
+  background:
+    radial-gradient(circle at 18% 18%, rgba(56, 189, 248, 0.14), transparent 45%),
+    radial-gradient(circle at 82% 20%, rgba(250, 204, 21, 0.10), transparent 42%),
+    linear-gradient(135deg, #0F172A 0%, #172554 55%, #1E3A5F 100%);
   color: #FFFFFF;
   padding: 58px 0 64px;
   border-bottom: 3px solid var(--accent);
