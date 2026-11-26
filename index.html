@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <link rel="stylesheet" href="css/style.css?v=11">
+  <link rel="stylesheet" href="css/style.css?v=12">
 </head>
 <body>
 
@@ -46,21 +46,26 @@
   </header>
 
   <!-- 1. HERO -->
-  <section class="hero-section">
-    <div class="container">
+  <section class="hero-section hero-mockup">
+    <svg class="hero-curve-overlay" viewBox="0 0 1440 700" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,0 L1180,0 C930,190 790,410 730,700 L0,700 Z" fill="rgba(9, 31, 66, 0.72)"></path>
+      <path d="M1180,0 C930,190 790,410 730,700" fill="none" stroke="#FACC15" stroke-width="5" stroke-opacity="0.85"></path>
+    </svg>
+
+    <div class="container hero-inner-wrap">
       <div class="hero-grid">
         <div>
           <span class="eyebrow">
-            <i class="fa-solid fa-shield-halved"></i> “Risk and Health” MMC
+            <i class="fa-solid fa-circle-check"></i> “RİSK AND HEALTH” MMC
           </span>
           <h1 class="hero-title">
             Sağlamlıq, Əməyin Təhlükəsizliyi və <span>Ətraf Mühit</span> sahəsində müasir və innovativ həllər
           </h1>
           <p class="hero-sub">
-            Sağlam insan, təhlükəsiz iş mühiti, dayanıqlı gələcək
+            Sağlam insan, təhlükəsiz iş mühiti, dayanıqlı gələcək.
           </p>
           <div class="hero-actions">
-            <a href="services.html" class="btn-primary">
+            <a href="services.html" class="btn-primary btn-pill">
               Daha ətraflı <i class="fa-solid fa-arrow-right"></i>
             </a>
           </div>
@@ -68,7 +73,31 @@
 
         <div class="hero-media" aria-hidden="true"></div>
       </div>
+
+      <div class="hero-pillars">
+        <div class="hero-pillar-item">
+          <i class="fa-solid fa-shield-halved"></i>
+          <span>Təhlükəsizlik prioritetimizdir</span>
+        </div>
+        <div class="hero-pillar-item">
+          <i class="fa-solid fa-users"></i>
+          <span>Peşəkar komanda</span>
+        </div>
+        <div class="hero-pillar-item">
+          <i class="fa-solid fa-handshake"></i>
+          <span>Etibarlı partnyorluq</span>
+        </div>
+        <div class="hero-pillar-item">
+          <i class="fa-solid fa-chart-line"></i>
+          <span>Dayanıqlı inkişaf</span>
+        </div>
+      </div>
     </div>
+
+    <svg class="hero-bottom-wave" viewBox="0 0 1440 70" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,38 Q360,8 720,38 T1440,22 L1440,70 L0,70 Z" fill="#FACC15"></path>
+      <path d="M0,52 Q360,22 720,52 T1440,36 L1440,70 L0,70 Z" fill="#FFFFFF"></path>
+    </svg>
   </section>
 
   <!-- 2. HAQQIMIZDA -->
